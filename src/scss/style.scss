@@ -1,0 +1,32 @@
+*{
+    font-family: 'Roboto', sans-serif; 
+}
+body{
+    background-color:#fcf5e6;
+    z-index: 0;
+    margin: 0 0;
+}
+
+.container{
+    max-width: 1288px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@import "blocks/header";
+@import "blocks/contact";
+@import "blocks/sliders";
+@import "blocks/galery";
+@import "blocks/filter";
+@import "blocks/shirts";
+@import "blocks/btn";
+@import "blocks/collection";
+@import "blocks/links";
+@import "blocks/footer";
+@import "blocks/social-icons";
+@import "blocks/menu";
+
+
+
+
+

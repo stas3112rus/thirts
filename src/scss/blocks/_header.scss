@@ -1,0 +1,28 @@
+.hero-header{
+    min-height: 100vh;
+    min-height: 650px;   
+    background: url('../img/web-ready/bg/hero.jpg') center center/cover no-repeat;
+    padding: 29px 5px 29px 75px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media(max-width: 767px){
+    .hero-header{       
+        padding: 29px 5px 29px 75px;       
+    }
+}
+
+@media(max-width: 501px){
+    .header{
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,40 @@
+.product-info{
+
+    .product-info__h2{
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #fcba2e;
+        
+        margin: 0;
+    }
+    .product-info__h1{
+        display: block;
+        font-size: 47px;
+        line-height: 50px;
+        text-transform: uppercase;
+        
+        color: #1b1b1b;
+    }
+    .product-info__price{
+        width: 95px;
+        height: 45px;
+        background-color: #ffc92f;
+        font-size: 25px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #212121;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1100px){
+    .product-info{
+        .product-info__h1{
+            letter-spacing: 0;
+        }
+    }
+}

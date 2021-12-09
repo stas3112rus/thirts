@@ -1,0 +1,15 @@
+.product-photos{
+   display: flex;
+   justify-content: center;
+   align-items: center;  
+   min-height: 500px;
+   
+   .product-photos__photo{
+       display: none;
+   }
+
+   .product__photo_active{
+       display: block;
+       width: 100%;
+   }
+}

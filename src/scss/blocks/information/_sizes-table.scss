@@ -1,0 +1,26 @@
+.sizes-table{
+    
+    width: 764px;
+
+    table{
+        width: 100%;
+        .sizes-table__td{
+            padding: 15px 21px 15px 21px;
+            border: #e9e2d2 solid 1px;            
+            font-size: 12.3px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #1b1b1b;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .sizes-table_bold{
+            background-color: #f6efe0;
+            font-size: 14.1px;
+            line-height: 20px;
+            font-weight: 700;
+            color: #1b1b1b;
+        }
+    }
+}

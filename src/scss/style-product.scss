@@ -1,0 +1,35 @@
+*{
+    font-family: 'Roboto', sans-serif; 
+}
+body{
+    background-color:#fcf5e6;
+    z-index: 0;
+    margin: 0 0;   
+}
+
+.container{
+    max-width: 1288px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@import "blocks/header-product";
+@import "blocks/contact";
+@import "blocks/product/product";
+@import "blocks/product/product-photos";
+@import "blocks/product/product-info";
+@import "blocks/product/product-properety";
+@import "blocks/product/product-btn";
+@import "blocks/product/product-colors";
+@import "blocks/product/product-buy";
+@import "blocks/filter";
+@import "blocks/information/tabs";
+@import "blocks/information/tabs-descr";
+@import "blocks/information/tabs-sizes";
+@import "blocks/information/sizes-table";
+@import "blocks/links";
+@import "blocks/footer";
+@import "blocks/social-icons";
+@import "blocks/menu";
+
+

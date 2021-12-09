@@ -1,0 +1,190 @@
+
+
+
+
+.shirts{
+    margin-top: 111px;
+}
+
+.shirts .wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+
+.shirts .shirts__block{
+    width: 630px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;    
+}
+
+
+
+.shirts .shirts__item{
+    position: relative;
+}
+
+.shirts .shirts__item_small{
+    width: 301px;
+    height: 386px;
+    background-color: #ffc92f;
+    margin-bottom: 15px;
+}
+
+.shirts .shirts__item_mr27{
+    margin-right: 27px;
+}
+
+.shirts .shirts__item_small img{
+    width: 280px;
+    display: block;
+    margin: 60px auto;
+}
+
+.shirts .shirts__item_small .shirts__price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+    height: 47px;
+    background-color: #232323;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fcf5e6;
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    z-index: 2;
+}
+
+.shirts .shirts__item_big .shirts__price{
+    display: flex;
+    width: 124px;
+    height: 47px;
+    background-color: #ffc92f;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    left: 0px;
+    top: 17px;
+    z-index: 2;
+}
+
+
+
+.shirts .shirts__item_small .shirts__desc{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: center;
+    width: 301px;
+    height: 145px;
+    position: absolute;
+    bottom: 0px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.shirts .shirts__item_big .shirts__desc{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-items: center;
+    width: 630px;
+    height: 145px;
+    position: absolute;
+    bottom: 0px;
+    background-color:rgba(256, 256, 256, 0.5);
+}
+
+.shirts .shirts__item_small .shirts__desc .shirts__text{
+    width: 301px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #fcf5e6;
+    text-align: center;
+}
+
+.shirts .shirts__item_big .shirts__desc .shirts__text{
+    width: 630px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #1b1b1b;
+    text-align: center;
+}
+
+.shirts .shirts__item_big{
+    width: 630px;
+    height: 543px;
+    background-color: #232323;
+    margin-bottom: 15px;
+    
+}
+
+.shirts .shirts__item_big img{
+    width: 560px;
+    display: block;
+    margin: 60px auto;
+} 
+
+.shirts .shirts__desc:hover{
+    display: flex;
+}
+
+.shirts .shirts__item{
+    overflow: hidden;
+}
+
+.shirts .shirts__item .shirts__desc{
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+
+.shirts .shirts__item:hover .shirts__desc{
+    transform: translateY(0%); 
+}
+
+@media (max-width: 1362px){
+    .shirts .wrapper, .shirts .shirts__block{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 767px){
+    .shirts .shirts__item_big{
+        width: 301px;
+        height: 386px;     
+    }
+    
+    .shirts .shirts__item_big img{
+        width: 280px;
+    }
+
+    .shirts .shirts__item_big .shirts__desc{
+        width: 301px;
+        height: 145px;
+    }
+}
+
+@media (max-width: 714px){
+    .shirts .shirts__block{
+        flex-direction: column;        
+    }
+    .shirts .shirts__item_mr27{
+        margin-right: 0px;
+    }
+    .shirts .shirts__item .shirts__desc{
+        transform: translateY(0%);
+    }
+}

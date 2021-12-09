@@ -1,0 +1,55 @@
+.socials-icons{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.socials-icons .socials-icons__icon{
+    padding: 35px;
+}
+
+.socials-icons .socials-icons__fb{
+    display: block;
+    width:22px;   
+    height: 39px;
+    background: url("../icons/social_fb.svg") center center/ 35% no-repeat;
+}
+
+.socials-icons .socials-icons__fb:hover{
+
+    background: url("../icons/social_fb_hover.svg") center center/ 35% no-repeat;
+}
+
+.socials-icons .socials-icons__twitter{
+    display: block;
+    width: 38px;   
+    height: 33px;
+    background: url("../icons/social_twitter.svg") center center/ 75% no-repeat;
+}
+
+.socials-icons .socials-icons__twitter:hover{
+    background: url("../icons/social_twitter_hover.svg") center center/ 75% no-repeat;
+}
+
+.socials-icons .socials-icons__insta{
+    display: block;
+    width: 38px;   
+    height: 38px;
+    background: url("../icons/social_insta.svg") center center/ 70% no-repeat;
+}
+
+.socials-icons .socials-icons__insta:hover{
+    background: url("../icons/social_insta_hover.svg") center center/ 70% no-repeat;
+}
+
+
+.socials-icons .socials-icons__pinterest{
+    display: block;
+    width: 38px;   
+    height: 39px;
+    background: url("../icons/social_pin.svg") center center/ 70% no-repeat;
+}
+
+.socials-icons .socials-icons__pinterest:hover{
+    background: url("../icons/social_pin_hover.svg") center center/ 70% no-repeat;
+}

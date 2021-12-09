@@ -1,0 +1,50 @@
+.product-colors{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-flow: wrap;
+
+    .product-colors-item{
+        margin-right: 10px;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+        a{
+            display: blocks;
+            width: 24px;
+            height: 24px;
+            border-radius: 100%;
+            
+        }
+    }
+
+    .product-colors-black{
+        background-color: #2f2c25; 
+    }
+
+    .product-colors-white{
+        background-color: #fcf5e6;
+        border: 2px solid #e0d9c8;
+    }
+
+    .product-colors-green{
+        background-color: #529029; 
+    }
+    
+    .product-colors-blue{
+       background-color: #39498d; 
+    }
+
+    .product-colors-red{
+        background-color: #d82727;
+    }
+
+    .product-colors-item_active{
+        border: #ffcb39 solid 4px;
+        border-radius: 100%;
+    }
+}

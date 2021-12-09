@@ -1,0 +1,74 @@
+
+/*  Colection */
+
+.collection{
+    margin-top: 170px;
+    padding-left: 75px;
+}
+
+.collection .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap; 
+}
+
+.collection .collection__block{
+    width: 630px;
+    min-height: 473px;
+    display: flex;
+    justify-content: left;
+    background: url("../img/web-ready/bg/pattern.png") center center/500px 
+}
+
+.collection .collection__img_man{   
+    width:282px;
+    background: url("../img/web-ready/collections/collection_man.png") center center/ 100% no-repeat;
+}
+.collection .collection__img_woman{   
+    width:282px;
+    background: url("../img/web-ready/collections/collection_woman.png") center center/ 100% no-repeat;
+}
+.collection .collection__descr{
+    margin-top: 83px;
+    padding:0 10px;
+}
+.collection .collection__title{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #1b1b1b; 
+}
+
+.collection .collection__text{
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #1b1b1b;
+}
+
+@media (max-width: 1362px){
+    .collection .container{
+        justify-content: center;
+    }
+
+    .collection .collection__block:first-child{
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 767px){
+    .collection .collection__img_man, .collection .collection__img_woman{
+        display: none;
+    }
+}
+
+@media(max-width: 501px){
+    .collection .collection__title{
+       font-size: 35px;
+       line-height: 35px;
+   }   
+}

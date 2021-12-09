@@ -1,0 +1,14 @@
+.tabs{    
+    max-width: 1101px;
+    margin: 0 auto;
+    border: 10px solid #ffc92f;
+    margin-left: 75px;
+    
+    .tabs__tab{
+        display: none;
+    }
+
+    .tabs_active{
+        display: block;
+    }
+}

@@ -1,0 +1,85 @@
+.header-product{
+    padding: 0 0 0 75px;
+    margin: 0 0;
+    background: url('../img/web-ready/bg/hero.jpg') center center/ cover no-repeat;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: wrap;
+    }
+    .header-product_mt29{
+        margin-top: 29px;
+    }
+    .header-product_ml5{
+        margin-left: 5px;
+    }
+    .header-product__center{
+        width: 516px;
+        height: 265px;
+        position: relative;
+    }
+
+    .header-product__center-img{
+        width: 400px;
+        height: 265px;
+        background: url("../img/web-ready/decor/header-guys.png") center center/cover no-repeat;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .header-product__title-center{
+   
+    padding: 3px;
+    background-color: #212121;
+    text-transform: uppercase;
+    line-height: 30px;
+    position: absolute;
+    margin-top: 29px;
+    z-index: 2;    
+    }
+    .header-produc-color-yellow{
+        color:#ffbc2f;
+    }
+
+    .header-produc-color-white{
+        color:#ffffff;
+    }
+}
+
+@media (max-width: 1000px){
+    .header-product{
+        .container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 550px){
+    .header-product{
+        .header-product__center{
+            width: 350px;
+            height: 165px;
+        }
+
+        .header-product__center-img{
+            width: 200px;
+            height: 165px;
+            background: url("../img/web-ready/decor/header-guys.png") center center/cover no-repeat;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 1;
+        }
+    }
+
+}
